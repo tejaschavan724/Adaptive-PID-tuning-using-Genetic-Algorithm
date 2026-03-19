@@ -45,12 +45,6 @@ The main objectives of this project are:
 
 ---
 
-## System Model
-The plant considered in this project is a **dead-time second-order process**, represented as:
-
-\[
-G(s) = \frac{e^{-0.2s}}{(s+1)^2}
-\]
 
 This type of process is challenging to control due to the presence of **time delay**, which reduces stability and makes tuning difficult.
 
